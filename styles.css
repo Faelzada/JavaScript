@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Sankofa+Display&display=swap');
 body {
     background-color: purple;
-    font-family: Brush Script MT, cursive;
+    font-family: "Grey Qo", cursive;
 }
 
 header, footer {
