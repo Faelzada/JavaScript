@@ -1,9 +1,12 @@
 body {
     background-color: purple;
-    font-family: 'Brush Script MT', cursive;
+    font-family: Brush Script MT, cursive;
 }
 
-header, footer {
+header, footer {body {
+    background-color: purple;
+    font-family: 'Brush Script MT', cursive;
+}
     text-align: center;
     color: white;
 }
