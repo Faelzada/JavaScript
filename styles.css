@@ -1,6 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
 body {
- background-color:black;
- text-align:center;
- text-color: rgb(255,255,255);
+    background-color: grey;
+    font-family: 'Didot', serif;
+}
+
+header, footer {
+    text-align: center;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+section {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header, p, h1, h2, h3, h4, h5, h6 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
