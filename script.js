@@ -1,10 +1,16 @@
-function carregar(){
-var msg = window.document.getElementById('msg') 
-  var foto = window. document.getElementById("imagem')
-  var data = new Date()
-  var hora = data.gethours()
-  msg.innerHTL = `Agora sao $(hora) horas.'
-  if (hora >=0 && hora < 12){  //Bom dia  img.src = '3292e2078a6a7d8bce24d19361dd413b.jpg'
-  } else if(hora >=12 && hora <18){  //Boa tarde  img.src = 'tarde.jpeg'  
-  } else {  //Boa noite  img.src = 'noite.jpg'  
-  }
+window.alert("Opa Jairão, bão?");
+var msg = window.document.getElementById('msg');
+var img = window.document.getElementById('foto');
+var data = new Date();
+var hora = 13 //data.getHours();
+
+if (hora >= 7 && hora < 12) {
+    img.src = '3292e2078a6a7d8bce24d19361dd413b.jpg';
+    msg.innerHTML = 'Bom dia!';
+} else if (hora >= 12 && hora < 18) {
+    img.src = 'tarde.jpeg';
+    msg.innerHTML = 'Boa tarde!';
+} else {
+    img.src = 'noite.jpg';
+    msg.innerHTML = 'Boa noite!';
+}
