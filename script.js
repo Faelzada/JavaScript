@@ -1,6 +1,6 @@
 function carregar(){
 var msg - window.document.getElementById('msg') 
-  var ing -window. document.getElementById("imagem')
+  var foto -window. document.getElementById("imagem')
   var data - new Date()
   var hora = data.gethours()
   msg.innerHTL = `Agora sao $(hora) horas.'
